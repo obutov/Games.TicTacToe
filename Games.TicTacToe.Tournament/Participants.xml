@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<participants>
-  <participant name="Oleg" className="RandomPlayer" />
-  <participant name="Player2" className="RandomPlayer" />
-</participants>
+<Participants>
+  <List>
+    <Participant Name="Oleg" ClassName="RandomPlayer" />
+    <Participant Name="Player2" ClassName="RandomPlayer" />
+  </List>
+</Participants>

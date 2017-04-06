@@ -45,7 +45,6 @@
     <Compile Include="Extensions.cs" />
     <Compile Include="GameResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RandomPlayer.cs" />
     <Compile Include="TimeoutException.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

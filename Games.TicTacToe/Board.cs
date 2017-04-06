@@ -231,7 +231,7 @@ namespace Games.TicTacToe
             string offset = "".PadLeft(columnMargin + 4, ' ');
             StringBuilder result = new StringBuilder();
 
-            result.Append(offset+String.Join("   ", Enumerable.Range(0, _width)) + "\n");
+            result.Append("\n" + offset + String.Join("   ", Enumerable.Range(0, _width)) + "\n");
 
             foreach (var i in Enumerable.Range(0, _height))
             {

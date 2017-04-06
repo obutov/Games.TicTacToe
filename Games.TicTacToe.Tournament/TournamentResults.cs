@@ -8,8 +8,15 @@ namespace Games.TicTacToe.Tournament
 {
     public class TournamentResults
     {
+        public TournamentResults()
+        {
+            Matches = new List<Match>();
+        }
+
         public List<Match> Matches { get; set; }
+
+        public int NumberOfRounds { get; set; }
+
+        public int BoardSize { get; set; }
     }
-
-
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Games.TicTacToe
+namespace Games.TicTacToe.Tournament.Players
 {
     public class RandomPlayer : AbstractPlayer
     {
