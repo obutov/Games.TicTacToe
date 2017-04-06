@@ -28,8 +28,10 @@ namespace Games.TicTacToe.Tournament
             LoadParticipants(participantsFile);
 
             CurrentRound = 0;
+
             Rounds = new List<Round>();
             Results = new TournamentResults();
+            Results.BoardSize = boardSize;
 
             _boardSize = boardSize;
         }

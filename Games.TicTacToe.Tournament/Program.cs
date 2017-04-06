@@ -16,8 +16,6 @@ namespace Games.TicTacToe.Tournament
                 Console.WriteLine("Welcome to Tic Tac Toe Tournament! \n");
                 TournamentAdmin tournament = new TournamentAdmin("Participants.xml", boardSize);
 
-                tournament.Results.BoardSize = boardSize;
-
                 while (!tournament.IsFinished)
                 {
                     tournament.CreateNextRound();
