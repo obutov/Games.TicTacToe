@@ -22,8 +22,6 @@ namespace Games.TicTacToe.Tournament
                     tournament.PlayRound();
                 }
 
-                tournament.Results.NumberOfRounds = tournament.Results.Matches.GroupBy(g => g.Round).Distinct().Count();
-
                 var winningPlayers = tournament.Rounds.Last().Brackets.Single().WinningPlayers;
                 if (winningPlayers.Count == 1)
                     Console.WriteLine($"\nTournament was completed. {winningPlayers.Single().Name} was a winner. \n");

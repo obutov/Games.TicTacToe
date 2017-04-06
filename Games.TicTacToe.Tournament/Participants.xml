@@ -2,6 +2,8 @@
 <Participants>
   <List>
     <Participant Name="Oleg" ClassName="RandomPlayer" />
-    <Participant Name="Player2" ClassName="RandomPlayer" />
+    <Participant Name="Tanya" ClassName="RandomPlayer" />
+    <Participant Name="Jane" ClassName="RandomPlayer" />
+    <Participant Name="Joe" ClassName="RandomPlayer" />
   </List>
 </Participants>

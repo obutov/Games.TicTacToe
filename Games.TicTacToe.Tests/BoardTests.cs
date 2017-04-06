@@ -13,7 +13,7 @@ namespace Games.TicTacToe.Tests
     public class BoardTests
     {
         [Fact]
-        public void TestBoardInitialization()
+        public void TestBoardInitialization_Success()
         {
             var player1 = new TestPlayer("TestPlayer1");
             var player2 = new TestPlayer("TestPlayer2");
@@ -31,7 +31,7 @@ namespace Games.TicTacToe.Tests
         }
 
         [Fact]
-        public void TestBoardInitialization_NonSquareBoard()
+        public void TestBoardInitialization_NonSquareBoardException()
         {
             var player1 = new TestPlayer("TestPlayer1");
             var player2 = new TestPlayer("TestPlayer2");
@@ -46,7 +46,7 @@ namespace Games.TicTacToe.Tests
         }
 
         [Fact]
-        public void TestBoardInitialization_SamePlayer()
+        public void TestBoardInitialization_SamePlayerException()
         {
             var player1 = new TestPlayer("TestPlayer1");
 
@@ -60,7 +60,7 @@ namespace Games.TicTacToe.Tests
         }
 
         [Fact]
-        public void TestGetOpponent()
+        public void TestGetOpponent_Success()
         {
             var player1 = new TestPlayer("TestPlayer1");
             var player2 = new TestPlayer("TestPlayer2");
@@ -75,7 +75,7 @@ namespace Games.TicTacToe.Tests
         }
 
         [Fact]
-        public void TestForecastMove()
+        public void TestForecastMove_Success()
         {
             var player1 = new TestPlayer("TestPlayer1");
             var player2 = new TestPlayer("TestPlayer2");
@@ -172,7 +172,7 @@ namespace Games.TicTacToe.Tests
         }
 
         [Fact]
-        public void TestGetLegalMoves()
+        public void TestGetLegalMoves_Sucsess()
         {
             var player1 = new TestPlayer("TestPlayer1");
             var player2 = new TestPlayer("TestPlayer2");
@@ -219,7 +219,7 @@ namespace Games.TicTacToe.Tests
         }
 
         [Fact]
-        public void TestToString()
+        public void TestToString_Success()
         {
             var player1 = new TestPlayer("TestPlayer1");
             var player2 = new TestPlayer("TestPlayer2");
@@ -227,7 +227,7 @@ namespace Games.TicTacToe.Tests
             var width = 3;
             var height = 3;
 
-            string expected = "      0   1   2\n[0] |   |   |   | \n[1] |   | X |   | \n[2] |   |   |   | \n";
+            string expected = "\n      0   1   2\n[0] |   |   |   | \n[1] |   | X |   | \n[2] |   |   |   | \n";
             var game = new Board(player1, player2, width, height);
             game._ApplyMove(Tuple.Create(1, 1));
 
@@ -237,7 +237,7 @@ namespace Games.TicTacToe.Tests
 
         }
         [Fact]
-        public void TestBoardCopy()
+        public void TestBoardCopy_Success()
         {
             var player1 = new TestPlayer("TestPlayer1");
             var player2 = new TestPlayer("TestPlayer2");
@@ -468,7 +468,33 @@ namespace Games.TicTacToe.Tests
         }
 
         [Fact]
-        public void TestPlay_Player2IllegalMove()
+        public void TestPlay_Player2Forefeit_OutsideOfTheBoarder()
+        {
+            var width = 3;
+            var height = 3;
+
+            var player1 = new Mock<TestPlayer>(MockBehavior.Strict, "TestPlayer1");
+            var player2 = new Mock<TestPlayer>(MockBehavior.Strict, "TestPlayer2");
+
+            player1.SetupSequence(m => m.GetMove(It.IsAny<Board>(), It.IsAny<Func<int>>()))
+                .Returns(Tuple.Create(1, 1))
+                .Returns(Tuple.Create(1, 0));
+
+            player2.SetupSequence(m => m.GetMove(It.IsAny<Board>(), It.IsAny<Func<int>>()))
+                .Returns(Tuple.Create(0, 0))
+                .Returns(Tuple.Create(width, height));
+
+
+            var game = new Board(player1.Object, player2.Object, width, height, 150000000);
+
+            var result = game.Play();
+
+            Assert.Equal(player1.Object, result.Player);
+            Assert.Equal("forfeit", result.Message);
+        }
+
+        [Fact]
+        public void TestPlay_Player2Forefeit_NullMove()
         {
             var player1 = new Mock<TestPlayer>(MockBehavior.Strict, "TestPlayer1");
             var player2 = new Mock<TestPlayer>(MockBehavior.Strict, "TestPlayer2");
@@ -479,7 +505,7 @@ namespace Games.TicTacToe.Tests
 
             player2.SetupSequence(m => m.GetMove(It.IsAny<Board>(), It.IsAny<Func<int>>()))
                 .Returns(Tuple.Create(0, 0))
-                .Returns(Tuple.Create(1, 0));
+                .Returns(Tuple.Create(-1, -1));
 
             var width = 3;
             var height = 3;
@@ -489,7 +515,7 @@ namespace Games.TicTacToe.Tests
             var result = game.Play();
 
             Assert.Equal(player1.Object, result.Player);
-            Assert.Equal("illegal move", result.Message);
+            Assert.Equal("forfeit", result.Message);
         }
 
         [Fact]

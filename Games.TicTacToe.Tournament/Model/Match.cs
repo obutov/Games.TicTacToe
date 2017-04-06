@@ -14,7 +14,7 @@ namespace Games.TicTacToe.Tournament
 
         public string Player1Name
         {
-            get { return Player1.Name; }
+            get { return Player1?.Name; }
             private set { Player1Name = value; }
         }
 
@@ -23,7 +23,7 @@ namespace Games.TicTacToe.Tournament
 
         public string Player2Name
         {
-            get { return Player2.Name; }
+            get { return Player2?.Name; }
 
             private set { Player2Name = value; }
         }

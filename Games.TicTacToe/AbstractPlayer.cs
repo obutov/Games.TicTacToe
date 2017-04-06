@@ -14,7 +14,7 @@ namespace Games.TicTacToe
 
         public string Name { get; set; }
 
-        public AbstractPlayer() { }
+        public int Score { get; set; }
 
         public AbstractPlayer(string name)
         {

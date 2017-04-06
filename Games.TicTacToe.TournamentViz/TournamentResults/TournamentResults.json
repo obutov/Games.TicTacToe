@@ -1,0 +1,5579 @@
+{
+  "Rounds": [
+    {
+      "RoundNumber": 0,
+      "Brackets": [
+        {
+          "Player1Name": "Joe",
+          "Player2Name": "Tanya",
+          "Matches": [
+            {
+              "Player1Name": "Joe",
+              "Player2Name": "Tanya",
+              "MoveHistory": [
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                }
+              ],
+              "ReasonLosing": "draw",
+              "Round": 0,
+              "WinningPlayerName": ""
+            },
+            {
+              "Player1Name": "Tanya",
+              "Player2Name": "Joe",
+              "MoveHistory": [
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                }
+              ],
+              "ReasonLosing": "draw",
+              "Round": 0,
+              "WinningPlayerName": ""
+            },
+            {
+              "Player1Name": "Joe",
+              "Player2Name": "Tanya",
+              "MoveHistory": [
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "draw",
+              "Round": 0,
+              "WinningPlayerName": ""
+            },
+            {
+              "Player1Name": "Tanya",
+              "Player2Name": "Joe",
+              "MoveHistory": [
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "draw",
+              "Round": 0,
+              "WinningPlayerName": ""
+            }
+          ]
+        },
+        {
+          "Player1Name": "Oleg",
+          "Player2Name": "Jane",
+          "Matches": [
+            {
+              "Player1Name": "Oleg",
+              "Player2Name": "Jane",
+              "MoveHistory": [
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "draw",
+              "Round": 0,
+              "WinningPlayerName": ""
+            },
+            {
+              "Player1Name": "Jane",
+              "Player2Name": "Oleg",
+              "MoveHistory": [
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "draw",
+              "Round": 0,
+              "WinningPlayerName": ""
+            },
+            {
+              "Player1Name": "Oleg",
+              "Player2Name": "Jane",
+              "MoveHistory": [
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "draw",
+              "Round": 0,
+              "WinningPlayerName": ""
+            },
+            {
+              "Player1Name": "Jane",
+              "Player2Name": "Oleg",
+              "MoveHistory": [
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "draw",
+              "Round": 0,
+              "WinningPlayerName": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "RoundNumber": 1,
+      "Brackets": [
+        {
+          "Player1Name": "Oleg",
+          "Player2Name": "Jane",
+          "Matches": [
+            {
+              "Player1Name": "Oleg",
+              "Player2Name": "Jane",
+              "MoveHistory": [
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "draw",
+              "Round": 1,
+              "WinningPlayerName": ""
+            },
+            {
+              "Player1Name": "Jane",
+              "Player2Name": "Oleg",
+              "MoveHistory": [
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "draw",
+              "Round": 1,
+              "WinningPlayerName": ""
+            },
+            {
+              "Player1Name": "Oleg",
+              "Player2Name": "Jane",
+              "MoveHistory": [
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "draw",
+              "Round": 1,
+              "WinningPlayerName": ""
+            },
+            {
+              "Player1Name": "Jane",
+              "Player2Name": "Oleg",
+              "MoveHistory": [
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "draw",
+              "Round": 1,
+              "WinningPlayerName": ""
+            }
+          ]
+        },
+        {
+          "Player1Name": "Joe",
+          "Player2Name": "Tanya",
+          "Matches": [
+            {
+              "Player1Name": "Joe",
+              "Player2Name": "Tanya",
+              "MoveHistory": [
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 1,
+              "WinningPlayerName": "Joe"
+            },
+            {
+              "Player1Name": "Tanya",
+              "Player2Name": "Joe",
+              "MoveHistory": [
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "draw",
+              "Round": 1,
+              "WinningPlayerName": ""
+            },
+            {
+              "Player1Name": "Joe",
+              "Player2Name": "Tanya",
+              "MoveHistory": [
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "draw",
+              "Round": 1,
+              "WinningPlayerName": ""
+            },
+            {
+              "Player1Name": "Tanya",
+              "Player2Name": "Joe",
+              "MoveHistory": [
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "draw",
+              "Round": 1,
+              "WinningPlayerName": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "RoundNumber": 2,
+      "Brackets": [
+        {
+          "Player1Name": "Jane",
+          "Player2Name": "Oleg",
+          "Matches": [
+            {
+              "Player1Name": "Jane",
+              "Player2Name": "Oleg",
+              "MoveHistory": [
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "draw",
+              "Round": 2,
+              "WinningPlayerName": ""
+            },
+            {
+              "Player1Name": "Oleg",
+              "Player2Name": "Jane",
+              "MoveHistory": [
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "draw",
+              "Round": 2,
+              "WinningPlayerName": ""
+            },
+            {
+              "Player1Name": "Jane",
+              "Player2Name": "Oleg",
+              "MoveHistory": [
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "draw",
+              "Round": 2,
+              "WinningPlayerName": ""
+            },
+            {
+              "Player1Name": "Oleg",
+              "Player2Name": "Jane",
+              "MoveHistory": [
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "draw",
+              "Round": 2,
+              "WinningPlayerName": ""
+            }
+          ]
+        },
+        {
+          "Player1Name": "Player01",
+          "Player2Name": "Joe",
+          "Matches": [
+            {
+              "Player1Name": "Player01",
+              "Player2Name": "Joe",
+              "MoveHistory": [
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "draw",
+              "Round": 2,
+              "WinningPlayerName": ""
+            },
+            {
+              "Player1Name": "Joe",
+              "Player2Name": "Player01",
+              "MoveHistory": [
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "draw",
+              "Round": 2,
+              "WinningPlayerName": ""
+            },
+            {
+              "Player1Name": "Player01",
+              "Player2Name": "Joe",
+              "MoveHistory": [
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "draw",
+              "Round": 2,
+              "WinningPlayerName": ""
+            },
+            {
+              "Player1Name": "Joe",
+              "Player2Name": "Player01",
+              "MoveHistory": [
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "draw",
+              "Round": 2,
+              "WinningPlayerName": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "RoundNumber": 3,
+      "Brackets": [
+        {
+          "Player1Name": "Oleg",
+          "Player2Name": "Jane",
+          "Matches": [
+            {
+              "Player1Name": "Oleg",
+              "Player2Name": "Jane",
+              "MoveHistory": [
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 3,
+              "WinningPlayerName": "Oleg"
+            },
+            {
+              "Player1Name": "Jane",
+              "Player2Name": "Oleg",
+              "MoveHistory": [
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 3,
+              "WinningPlayerName": "Jane"
+            },
+            {
+              "Player1Name": "Oleg",
+              "Player2Name": "Jane",
+              "MoveHistory": [
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 3,
+              "WinningPlayerName": "Oleg"
+            },
+            {
+              "Player1Name": "Jane",
+              "Player2Name": "Oleg",
+              "MoveHistory": [
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 3,
+              "WinningPlayerName": "Jane"
+            }
+          ]
+        },
+        {
+          "Player1Name": "Playera2",
+          "Player2Name": "Joe",
+          "Matches": [
+            {
+              "Player1Name": "Playera2",
+              "Player2Name": "Joe",
+              "MoveHistory": [
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 3,
+              "WinningPlayerName": "Playera2"
+            },
+            {
+              "Player1Name": "Joe",
+              "Player2Name": "Playera2",
+              "MoveHistory": [
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 3,
+              "WinningPlayerName": "Joe"
+            },
+            {
+              "Player1Name": "Playera2",
+              "Player2Name": "Joe",
+              "MoveHistory": [
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 3,
+              "WinningPlayerName": "Playera2"
+            },
+            {
+              "Player1Name": "Joe",
+              "Player2Name": "Playera2",
+              "MoveHistory": [
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 3,
+              "WinningPlayerName": "Joe"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "RoundNumber": 4,
+      "Brackets": [
+        {
+          "Player1Name": "Playera9",
+          "Player2Name": "Joe",
+          "Matches": [
+            {
+              "Player1Name": "Playera9",
+              "Player2Name": "Joe",
+              "MoveHistory": [
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 4,
+              "WinningPlayerName": "Playera9"
+            },
+            {
+              "Player1Name": "Joe",
+              "Player2Name": "Playera9",
+              "MoveHistory": [
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 4,
+              "WinningPlayerName": "Joe"
+            },
+            {
+              "Player1Name": "Playera9",
+              "Player2Name": "Joe",
+              "MoveHistory": [
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 4,
+              "WinningPlayerName": "Playera9"
+            },
+            {
+              "Player1Name": "Joe",
+              "Player2Name": "Playera9",
+              "MoveHistory": [
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 4,
+              "WinningPlayerName": "Joe"
+            }
+          ]
+        },
+        {
+          "Player1Name": "Jane",
+          "Player2Name": "Oleg",
+          "Matches": [
+            {
+              "Player1Name": "Jane",
+              "Player2Name": "Oleg",
+              "MoveHistory": [
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 4,
+              "WinningPlayerName": "Jane"
+            },
+            {
+              "Player1Name": "Oleg",
+              "Player2Name": "Jane",
+              "MoveHistory": [
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 4,
+              "WinningPlayerName": "Oleg"
+            },
+            {
+              "Player1Name": "Jane",
+              "Player2Name": "Oleg",
+              "MoveHistory": [
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 4,
+              "WinningPlayerName": "Jane"
+            },
+            {
+              "Player1Name": "Oleg",
+              "Player2Name": "Jane",
+              "MoveHistory": [
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 4,
+              "WinningPlayerName": "Oleg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "RoundNumber": 5,
+      "Brackets": [
+        {
+          "Player1Name": "Playerb9",
+          "Player2Name": "Oleg",
+          "Matches": [
+            {
+              "Player1Name": "Playerb9",
+              "Player2Name": "Oleg",
+              "MoveHistory": [
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 5,
+              "WinningPlayerName": "Playerb9"
+            },
+            {
+              "Player1Name": "Oleg",
+              "Player2Name": "Playerb9",
+              "MoveHistory": [
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 4
+                }
+              ],
+              "ReasonLosing": "draw",
+              "Round": 5,
+              "WinningPlayerName": ""
+            },
+            {
+              "Player1Name": "Playerb9",
+              "Player2Name": "Oleg",
+              "MoveHistory": [
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 5,
+              "WinningPlayerName": "Oleg"
+            },
+            {
+              "Player1Name": "Oleg",
+              "Player2Name": "Playerb9",
+              "MoveHistory": [
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 5,
+              "WinningPlayerName": "Playerb9"
+            }
+          ]
+        },
+        {
+          "Player1Name": "Jane",
+          "Player2Name": "Joe",
+          "Matches": [
+            {
+              "Player1Name": "Jane",
+              "Player2Name": "Joe",
+              "MoveHistory": [
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 5,
+              "WinningPlayerName": "Joe"
+            },
+            {
+              "Player1Name": "Joe",
+              "Player2Name": "Jane",
+              "MoveHistory": [
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 5,
+              "WinningPlayerName": "Jane"
+            },
+            {
+              "Player1Name": "Jane",
+              "Player2Name": "Joe",
+              "MoveHistory": [
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 5,
+              "WinningPlayerName": "Joe"
+            },
+            {
+              "Player1Name": "Joe",
+              "Player2Name": "Jane",
+              "MoveHistory": [
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 5,
+              "WinningPlayerName": "Jane"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "RoundNumber": 6,
+      "Brackets": [
+        {
+          "Player1Name": "Joe",
+          "Player2Name": "Oleg",
+          "Matches": [
+            {
+              "Player1Name": "Joe",
+              "Player2Name": "Oleg",
+              "MoveHistory": [
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 6,
+              "WinningPlayerName": "Oleg"
+            },
+            {
+              "Player1Name": "Oleg",
+              "Player2Name": "Joe",
+              "MoveHistory": [
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 6,
+              "WinningPlayerName": "Joe"
+            },
+            {
+              "Player1Name": "Joe",
+              "Player2Name": "Oleg",
+              "MoveHistory": [
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 6,
+              "WinningPlayerName": "Oleg"
+            },
+            {
+              "Player1Name": "Oleg",
+              "Player2Name": "Joe",
+              "MoveHistory": [
+                {
+                  "Item1": 0,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 1,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 2,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 1
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 2
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 3
+                },
+                {
+                  "Item1": 3,
+                  "Item2": 4
+                },
+                {
+                  "Item1": 0,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 0
+                },
+                {
+                  "Item1": 4,
+                  "Item2": 1
+                }
+              ],
+              "ReasonLosing": "won",
+              "Round": 6,
+              "WinningPlayerName": "Joe"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "NumberOfRounds": 7,
+  "BoardSize": 5
+}

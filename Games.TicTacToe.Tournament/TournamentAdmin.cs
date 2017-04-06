@@ -10,6 +10,7 @@ namespace Games.TicTacToe.Tournament
 {
     public class TournamentAdmin
     {
+        private const int SCORE = 1;
         private const int NUM_MATCHES = 4;
         private const int TIMEOUT_MULTIPLIER = 30;
 
@@ -19,6 +20,15 @@ namespace Games.TicTacToe.Tournament
         public TournamentResults Results { get; set; }
         public List<Round> Rounds { get; set; }
         public int CurrentRound { get; set; }
+        public int ParticipantsCount
+        {
+            get
+            {
+                if (_participants != null)
+                    return _participants.List.Count();
+                return 0;
+            }
+        }
 
         public TournamentAdmin(string participantsFile, int boardSize)
         {
@@ -36,6 +46,9 @@ namespace Games.TicTacToe.Tournament
             _boardSize = boardSize;
         }
 
+        /// <summary>
+        /// Gets wheither the tournament is finished
+        /// </summary>
         public bool IsFinished
         {
             get
@@ -45,6 +58,9 @@ namespace Games.TicTacToe.Tournament
             }
         }
 
+        /// <summary>
+        /// Create next round
+        /// </summary>
         public void CreateNextRound()
         {
             // create round from a list of participants
@@ -61,10 +77,14 @@ namespace Games.TicTacToe.Tournament
             }
         }
 
+        /// <summary>
+        /// Play a round
+        /// </summary>
         public void PlayRound()
         {
             Console.WriteLine($"\nPlaying round {CurrentRound}:");
-            var brackets = Rounds.Where(r => r.RoundNumber == CurrentRound).SelectMany(s => s.Brackets);
+            var round = Rounds.Where(r => r.RoundNumber == CurrentRound).SingleOrDefault();
+            var brackets = round.Brackets;
 
             int i = 0;
             foreach (var bracket in brackets)
@@ -72,13 +92,16 @@ namespace Games.TicTacToe.Tournament
                 Console.WriteLine($"\nPlaying bracket {i}:");
                 PlayMatches(bracket, CurrentRound);
 
-                Results.Matches.AddRange(bracket.Matches);
-
                 i++;
             }
+            Results.Rounds.Add(round);
             CurrentRound++;
         }
 
+        /// <summary>
+        /// Save results into json file
+        /// </summary>
+        /// <param name="fileName"></param>
         public void SaveResults(string fileName)
         {
             using (StreamWriter file = File.CreateText(fileName))
@@ -89,23 +112,13 @@ namespace Games.TicTacToe.Tournament
             Console.WriteLine($"Results saved to {fileName}");
         }
 
-        private void LoadParticipants(string participantsFile)
-        {
-            XmlSerializer serializer = new XmlSerializer(typeof(Participants));
-            using (StreamReader reader = new StreamReader(participantsFile))
-            {
-                _participants = (Participants)serializer.Deserialize(reader);
-            }
-        }
+        #region Private Methods
 
-        private object GetInstance(string className, string param)
-        {
-            Type type = Type.GetType($"Games.TicTacToe.Tournament.Players.{className}");
-            if (type != null)
-                return Activator.CreateInstance(type, param);
-            return null;
-        }
-
+        /// <summary>
+        /// Plays all matches in the bracket
+        /// </summary>
+        /// <param name="bracket">Current bracket</param>
+        /// <param name="round">Current round</param>
         private void PlayMatches(Bracket bracket, int round)
         {
             int matchNumber = 0;
@@ -120,6 +133,13 @@ namespace Games.TicTacToe.Tournament
             }
         }
 
+        /// <summary>
+        /// Playes a match in the round
+        /// </summary>
+        /// <param name="player1">Player1 (X) object</param>
+        /// <param name="player2">Player2 (O) object</param>
+        /// <param name="round">Round number</param>
+        /// <returns>Match object with game results</returns>
         private Match PlayMatch(AbstractPlayer player1, AbstractPlayer player2, int round)
         {
             Console.WriteLine($"{ player1.Name} against { player2.Name}");
@@ -127,10 +147,60 @@ namespace Games.TicTacToe.Tournament
 
             var result = game.Play();
 
+            if (result.Player != null)
+                result.Player.Score += SCORE;
+
             Match match = new Match(player1, player2, result.MoveHistory, result.Player, result.Message, round);
             return match;
         }
 
+        /// <summary>
+        /// Creates 0 round from a list of participants
+        /// Method will use participants' ClassName (stored in XML) to load AbstractPlayer object
+        /// All players' classes should be stored in Players folder and be under Games.TicTacToe.Tournament.Players namespace
+        /// </summary>
+        /// <returns>Round object</returns>
+        private Round Create0Round()
+        {
+            if (_participants.List.Length == 0)
+                throw new Exception("There should be at least one participant.");
+
+            var participantsList = _participants.List.ToList();
+
+            // add RandomPlayer if the list cannot be split evenly
+            if (participantsList.Count % 2 != 0)
+                participantsList.Add(new Participant { Name = $"Player{Guid.NewGuid().ToString().Substring(0, 2)}", ClassName = "RandomPlayer" });
+
+            // shuffle players in the list
+            var rnd = new Random();
+            participantsList = participantsList.OrderBy(item => rnd.Next()).ToList();
+
+            Round round = new Round(CurrentRound);
+
+            var e = participantsList.GetEnumerator();
+
+            while (e.MoveNext())
+            {
+                var bracket = new Bracket();
+                // load player object based on the class name
+                bracket.Player1 = (AbstractPlayer)GetInstance(e.Current.ClassName, e.Current.Name);
+
+                e.MoveNext();
+
+                bracket.Player2 = (AbstractPlayer)GetInstance(e.Current.ClassName, e.Current.Name);
+
+                bracket.Matches = new List<Match>();
+                round.Brackets.Add(bracket);
+            }
+
+            return round;
+        }
+
+        /// <summary>
+        /// Creates a round from the winners of the previous round
+        /// If there was a tie, both players would advance to the next round
+        /// </summary>
+        /// <returns>Round object</returns>
         private Round CreateRoundFromPreviousRound()
         {
             // get previous round brackets
@@ -144,7 +214,11 @@ namespace Games.TicTacToe.Tournament
 
             // add RandomPlayer if the list cannot be split evenly
             if (winningPlayers.Count % 2 != 0)
-                winningPlayers.Add(new RandomPlayer() { Name = $"RandomPlayer{Guid.NewGuid()}" });
+                winningPlayers.Add(new RandomPlayer() { Name = $"Player{Guid.NewGuid().ToString().Substring(0, 2)}" });
+
+            // shuffle players in the list
+            var rnd = new Random();
+            winningPlayers = winningPlayers.OrderBy(item => rnd.Next()).ToList();
 
             Round round = new Round(CurrentRound);
 
@@ -166,39 +240,33 @@ namespace Games.TicTacToe.Tournament
             return round;
         }
 
-        private Round Create0Round()
+        /// <summary>
+        /// Loads participants from XML file
+        /// </summary>
+        /// <param name="participantsFile">XML filename</param>
+        private void LoadParticipants(string participantsFile)
         {
-            if (_participants.List.Length == 0)
-                throw new Exception("There should be at least one participant.");
-
-            var participantsList = _participants.List.ToList();
-
-            // add RandomPlayer if the list cannot be split evenly
-            if (participantsList.Count % 2 != 0)
-                participantsList.Add(new Participant { Name = $"RandomPlayer{Guid.NewGuid()}", ClassName = "RandomPlayer" });
-
-            // randomize players in the list
-            var rnd = new Random();
-            participantsList = participantsList.OrderBy(item => rnd.Next()).ToList();
-
-            Round round = new Round(CurrentRound);
-
-            var e = participantsList.GetEnumerator();
-
-            while (e.MoveNext())
+            XmlSerializer serializer = new XmlSerializer(typeof(Participants));
+            using (StreamReader reader = new StreamReader(participantsFile))
             {
-                var bracket = new Bracket();
-                bracket.Player1 = (AbstractPlayer)GetInstance(e.Current.ClassName, e.Current.Name);
-
-                e.MoveNext();
-
-                bracket.Player2 = (AbstractPlayer)GetInstance(e.Current.ClassName, e.Current.Name);
-
-                bracket.Matches = new List<Match>();
-                round.Brackets.Add(bracket);
+                _participants = (Participants)serializer.Deserialize(reader);
             }
-
-            return round;
         }
+
+        /// <summary>
+        /// Loads Player object
+        /// </summary>
+        /// <param name="className">Player Class name, must be a child of AbstractPlayer</param>
+        /// <param name="param">Constructor parameter, player name in this case</param>
+        /// <returns>Player object</returns>
+        private object GetInstance(string className, string param)
+        {
+            Type type = Type.GetType($"Games.TicTacToe.Tournament.Players.{className}");
+            if (type != null)
+                return Activator.CreateInstance(type, param);
+            return null;
+        }
+
+        #endregion
     }
 }

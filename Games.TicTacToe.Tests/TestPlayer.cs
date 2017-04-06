@@ -8,8 +8,6 @@ namespace Games.TicTacToe.Tests
 {
     public class TestPlayer : AbstractPlayer
     {
-        public TestPlayer() { }
-
         public TestPlayer(string name = "TestPlayer") : base(name)
         {
         }

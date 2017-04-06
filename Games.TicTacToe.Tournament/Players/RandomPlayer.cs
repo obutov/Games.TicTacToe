@@ -8,8 +8,6 @@ namespace Games.TicTacToe.Tournament.Players
 {
     public class RandomPlayer : AbstractPlayer
     {
-        public RandomPlayer() { }
-
         public RandomPlayer(string name = "RandomPlayer") : base(name)
         {
         }

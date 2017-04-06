@@ -10,12 +10,12 @@ namespace Games.TicTacToe.Tournament
     {
         public TournamentResults()
         {
-            Matches = new List<Match>();
+            Rounds = new List<Round>();
         }
 
-        public List<Match> Matches { get; set; }
+        public List<Round> Rounds { get; set; }
 
-        public int NumberOfRounds { get; set; }
+        public int NumberOfRounds { get { return Rounds.Count; } }
 
         public int BoardSize { get; set; }
     }

@@ -77,6 +77,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Games.TicTacToe.Tournament\Games.TicTacToe.Tournament.csproj">
+      <Project>{E73F3B72-B741-458B-9D68-0EFE46707601}</Project>
+      <Name>Games.TicTacToe.Tournament</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Games.TicTacToe\Games.TicTacToe.csproj">
       <Project>{0a5cd8ff-decf-437e-b0c9-b97dcfe41803}</Project>
       <Name>Games.TicTacToe</Name>
@@ -84,6 +88,14 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TestFiles\TwoParticipants.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestFiles\Participants.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

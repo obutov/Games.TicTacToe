@@ -294,20 +294,18 @@ namespace Games.TicTacToe
                 if (!legalPlayerMoves.Contains(currentMove))
                 {
                     // moves left, return a forfeit
-                    if (legalPlayerMoves.Count() > 0 && !moveHistory.Contains(currentMove))
+                    if (legalPlayerMoves.Count() > 0)
                         return new GameResult(_inactivePlayer, moveHistory, "forfeit");
                     // no moves left, return a draw
                     else if (GetBlankSpaces().Count() == 0)
                         break;
-                    // illegal move
-                    return new GameResult(_inactivePlayer, moveHistory, "illegal move");
                 }
 
                 moveHistory.Add(currentMove);
 
                 _ApplyMove(currentMove);
-                Debug.WriteLine(ToString());
-                Debug.WriteLine("\n");
+                //Debug.WriteLine(ToString());
+                //Debug.WriteLine("\n");
             }
 
             if (IsDraw(_activePlayer))

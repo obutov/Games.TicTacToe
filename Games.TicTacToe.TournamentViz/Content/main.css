@@ -1,0 +1,65 @@
+﻿body {
+}
+
+.stretched {
+    width: 97%;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.centered-panel {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bracket {
+    width:100px;
+}
+
+.bracket-container {
+    float: left;
+    width:220px;
+    border-right: 1px dotted gray;
+    border-left: 1px dotted gray;
+}
+.match-title {
+    float: right;
+    margin-top: 3em;
+    width:120px;
+}
+.round-title {
+    margin-left:1em;
+    float: left;
+    margin-top: 3em;
+    width:120px;
+}
+.players-panel {
+    padding-top: 4em;
+    width: 200px;
+    text-align: center;
+}
+
+.board-panel {
+    clear: left;
+    margin-top: 1em;
+    border: 1px solid gray;
+    padding: 1em;   
+    overflow: hidden;    
+}
+.board-cell {
+    float: left;
+    width: 120px;
+    height: 120px;
+    padding: 5px;
+    border: 1px dotted gray;
+    text-align: center;
+    font-size: 5.5em;
+}
+
+.message-panel {
+    clear: left;
+    margin-top: 2em;
+    width: 400px;
+    text-align: center;
+}
