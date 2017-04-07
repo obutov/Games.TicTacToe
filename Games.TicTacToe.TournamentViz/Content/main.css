@@ -14,12 +14,12 @@
 }
 
 .bracket {
-    width:100px;
+    width:120px;
 }
 
 .bracket-container {
     float: left;
-    width:220px;
+    width:250px;
     border-right: 1px dotted gray;
     border-left: 1px dotted gray;
 }
@@ -36,8 +36,9 @@
 }
 .players-panel {
     padding-top: 4em;
-    width: 200px;
+    width: 300px;
     text-align: center;
+    font-weight: bold;
 }
 
 .board-panel {
@@ -60,6 +61,9 @@
 .message-panel {
     clear: left;
     margin-top: 2em;
-    width: 400px;
+    width: 500px;
     text-align: center;
+}
+.padded-top {
+    padding-top: 0.5em;
 }

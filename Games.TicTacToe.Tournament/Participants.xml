@@ -2,8 +2,13 @@
 <Participants>
   <List>
     <Participant Name="Oleg" ClassName="RandomPlayer" />
-    <Participant Name="Tanya" ClassName="RandomPlayer" />
-    <Participant Name="Jane" ClassName="RandomPlayer" />
-    <Participant Name="Joe" ClassName="RandomPlayer" />
+    <Participant Name="Suman" ClassName="RandomPlayer" />
+    <Participant Name="Tom" ClassName="RandomPlayer" />
+    <Participant Name="David" ClassName="RandomPlayer" />
+    <Participant Name="Travis" ClassName="RandomPlayer" />
+    <Participant Name="Erica" ClassName="RandomPlayer" />
+    <Participant Name="Justin" ClassName="RandomPlayer" />
+    <Participant Name="Daniel" ClassName="RandomPlayer" />
+    <Participant Name="Jeremy" ClassName="RandomPlayer" />
   </List>
 </Participants>

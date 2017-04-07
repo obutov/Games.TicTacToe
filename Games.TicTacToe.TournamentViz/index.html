@@ -3,34 +3,34 @@
 <head>
     <title>Tic Tac Toe Tournament</title>
 </head>
-<body ng-controller="Main as vz">
-    <button class="btn btn-primary btn-lg stretched" ng-click="vz.start()" type="submit">{{vz.buttonText}}</button>
+<body ng-controller="Main as game">
+    <button id="startButton" class="btn btn-primary btn-lg stretched" ng-click="game.start()" type="submit">{{game.paused ? (game.bracketNum == 0 && game.moveNum == 0 ? "START" : "RESUME") : "PAUSE"}}</button>
 
-    <div class="check-element animate-show-hide stretched" ng-hide="vz.gameBoardHidden">
+    <div class="check-element animate-show-hide stretched" ng-hide="game.gameBoardHidden">
         <div class="round-title">
-            <h3>Round <span class="label label-default">{{vz.roundNumber}}</span></h3>
+            <h3>Round <span class="label label-default">{{game.roundNum}}</span></h3>
         </div>
         <div class="match-title">
-            <h3>Match <span class="label label-default">{{vz.matchNum}}</span></h3>
+            <h3>Match <span class="label label-default">{{game.matchNum}}</span></h3>
         </div>
 
         <div class="brackets-panel centered-panel">
-            <ul class="nav nav-pills bracket-container" role="tablist" ng-repeat="bracket in vz.brackets">
-                <li role="presentation" class="bracket {{vz.player1 == bracket.Player1Name || vz.player1 == bracket.Player2Name ? "active" : ""}}"><a href="#">{{bracket.Player1Name}} <span class="badge">{{bracket.Player1Score == null ? 0 : bracket.Player1Score}}</span></a></li>
-                <li role="presentation" class="bracket {{vz.player1 == bracket.Player1Name || vz.player1 == bracket.Player2Name ? "active" : ""}}"><a href="#">{{bracket.Player2Name}} <span class="badge">{{bracket.Player2Score == null ? 0 : bracket.Player2Score}}</span></a></li>
+            <ul class="nav nav-pills bracket-container" role="tablist" ng-repeat="bracket in game.brackets">
+                <li role="presentation" class="bracket {{(game.player1 == bracket.Player1Name || game.player1 == bracket.Player2Name || game.player2 == bracket.Player1Name || game.player2 == bracket.Player2Name) ? 'active' : ''}}"><a href="#">{{bracket.Player1Name}} <span class="badge">{{bracket.Player1Score}}</span></a></li>
+                <li role="presentation" class="bracket {{(game.player1 == bracket.Player1Name || game.player1 == bracket.Player2Name || game.player2 == bracket.Player1Name || game.player2 == bracket.Player2Name) ? 'active' : ''}}"><a href="#">{{bracket.Player2Name}} <span class="badge">{{bracket.Player2Score}}</span></a></li>
             </ul>
         </div>
         <div class="centered-panel players-panel">
             <div class="panel panel-default">
                 <div class="panel-body">
-                    {{vz.matchOpponents}}
+                    <h4>{{game.matchOpponents}}</h4>
                 </div>
             </div>
         </div>
         <div class="board-panel centered-panel">
-            <div class="board-cell" ng-repeat="cell in vz.cellsArray track by $index">{{cell}}</div>
+            <div class="board-cell" ng-repeat="cell in game.cellsArray track by $index">{{cell}}</div>
         </div>
-        <div class="message-panel centered-panel alert {{vz.alertClass}}"><h4>{{vz.message}}</h4></div>
+        <div class="message-panel centered-panel alert {{game.alertClass}}"><h4 class="padded-top">{{game.message}}</h4></div>
     </div>
     <script src="Scripts/jquery-1.9.1.min.js"></script>
     <script src="Scripts/angular.min.js"></script>

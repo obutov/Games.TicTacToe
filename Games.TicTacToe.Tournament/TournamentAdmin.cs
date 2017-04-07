@@ -89,6 +89,11 @@ namespace Games.TicTacToe.Tournament
             int i = 0;
             foreach (var bracket in brackets)
             {
+                // save current score for each player prior to running matches
+                // this will be used in play visialization
+                bracket.Player1Score = bracket.Player1.Score;
+                bracket.Player2Score = bracket.Player2.Score;
+
                 Console.WriteLine($"\nPlaying bracket {i}:");
                 PlayMatches(bracket, CurrentRound);
 
@@ -151,6 +156,8 @@ namespace Games.TicTacToe.Tournament
                 result.Player.Score += SCORE;
 
             Match match = new Match(player1, player2, result.MoveHistory, result.Player, result.Message, round);
+            match.Player1Score = player1.Score;
+            match.Player2Score = player2.Score;
             return match;
         }
 

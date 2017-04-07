@@ -11,13 +11,14 @@ namespace Games.TicTacToe.Tournament
     {
         [JsonIgnore]
         public AbstractPlayer Player1 { get; set; }
-
         public string Player1Name
         {
             get { return Player1?.Name; }
 
             private set { Player1Name = value; }
         }
+
+        public int Player1Score { get; set; }
 
         [JsonIgnore]
         public AbstractPlayer Player2 { get; set; }
@@ -27,6 +28,9 @@ namespace Games.TicTacToe.Tournament
 
             private set { Player2Name = value; }
         }
+
+        public int Player2Score { get; set; }
+
         public List<Match> Matches { get; set; }
 
         /// <summary>

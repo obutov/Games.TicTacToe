@@ -21,7 +21,7 @@ namespace Games.TicTacToe.Tournament.Players
             try
             {
                 if (this.Timeout() < TIMER_THRESHOLD_MS) throw new TimeoutException();
-                Random rnd = new Random();
+                Random rnd = new Random(DateTime.UtcNow.GetHashCode());
 
                 var legalMoves = board.GetLegalMoves();
 

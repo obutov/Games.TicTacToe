@@ -18,5 +18,17 @@ namespace Games.TicTacToe.Tournament
         public int NumberOfRounds { get { return Rounds.Count; } }
 
         public int BoardSize { get; set; }
+
+        public string WinnerName
+        {
+            get
+            {
+                var winningPlayers = Rounds.Last().Brackets.Single().WinningPlayers;
+                if (winningPlayers.Count == 1)
+                    return winningPlayers.First().Name;
+
+                return "";
+            }
+        }
     }
 }
