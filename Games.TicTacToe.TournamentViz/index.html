@@ -2,44 +2,69 @@
 <html ng-app="app">
 <head>
     <title>Tic Tac Toe Tournament</title>
-</head>
-<body ng-controller="Main as game">
-    <button id="startButton" class="btn btn-primary btn-lg stretched" ng-click="game.start()" type="submit">{{game.paused ? (game.bracketNum == 0 && game.moveNum == 0 ? "START" : "RESUME") : "PAUSE"}}</button>
-
-    <div class="check-element animate-show-hide stretched" ng-hide="game.gameBoardHidden">
-        <div class="round-title">
-            <h3>Round <span class="label label-default">{{game.roundNum}}</span></h3>
-        </div>
-        <div class="match-title">
-            <h3>Match <span class="label label-default">{{game.matchNum}}</span></h3>
-        </div>
-
-        <div class="brackets-panel centered-panel">
-            <ul class="nav nav-pills bracket-container" role="tablist" ng-repeat="bracket in game.brackets">
-                <li role="presentation" class="bracket {{(game.player1 == bracket.Player1Name || game.player1 == bracket.Player2Name || game.player2 == bracket.Player1Name || game.player2 == bracket.Player2Name) ? 'active' : ''}}"><a href="#">{{bracket.Player1Name}} <span class="badge">{{bracket.Player1Score}}</span></a></li>
-                <li role="presentation" class="bracket {{(game.player1 == bracket.Player1Name || game.player1 == bracket.Player2Name || game.player2 == bracket.Player1Name || game.player2 == bracket.Player2Name) ? 'active' : ''}}"><a href="#">{{bracket.Player2Name}} <span class="badge">{{bracket.Player2Score}}</span></a></li>
-            </ul>
-        </div>
-        <div class="centered-panel players-panel">
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <h4>{{game.matchOpponents}}</h4>
-                </div>
-            </div>
-        </div>
-        <div class="board-panel centered-panel">
-            <div class="board-cell" ng-repeat="cell in game.cellsArray track by $index">{{cell}}</div>
-        </div>
-        <div class="message-panel centered-panel alert {{game.alertClass}}"><h4 class="padded-top">{{game.message}}</h4></div>
-    </div>
     <script src="Scripts/jquery-1.9.1.min.js"></script>
     <script src="Scripts/angular.min.js"></script>
     <script src="Scripts/angular-animate.min.js"></script>
     <script src="Scripts/angular-ui/ui-bootstrap-tpls.min.js"></script>
+    <script src="Scripts/bootstrap-slider.js"></script>
     <script src="app/app.module.js"></script>
     <script src="app/main.js"></script>
 
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/main.css" rel="stylesheet" />
+    <link href="Content/slider.css" rel="stylesheet" />
+</head>
+<body ng-controller="Main as game">
+        <button id="startButton" class="btn btn-primary btn-lg stretched" ng-click="game.startClick()" type="submit">{{game.paused ? (game.bracketNum == 0 && game.moveNum == 0 ? "START" : "RESUME") : "PAUSE"}}</button>
+
+        <div class="check-element animate-show-hide stretched" ng-hide="game.gameBoardHidden">
+            <div class="round-title">
+                <h3>Round <span class="label label-success">{{game.roundNum}}</span></h3>
+            </div>
+            <div class="match-title">
+                <h3>Match <span class="label label-success">{{game.matchNum}}</span></h3>
+            </div>
+
+            <div class="brackets-panel centered-panel">
+                <ul class="nav nav-pills bracket-container" role="tablist" ng-repeat="bracket in game.brackets">
+                    <li role="presentation" class="bracket {{(game.player1 == bracket.Player1Name || game.player1 == bracket.Player2Name || game.player2 == bracket.Player1Name || game.player2 == bracket.Player2Name) ? 'active' : ''}}">
+                        <a class="{{bracket.Player1Name}}" href="#">
+                            {{bracket.Player1Name}}<span class="badge">{{bracket.Player1Score}}</span>
+                        </a>
+                    </li>
+                    <li role="presentation" class="bracket {{(game.player1 == bracket.Player1Name || game.player1 == bracket.Player2Name || game.player2 == bracket.Player1Name || game.player2 == bracket.Player2Name) ? 'active' : ''}}">
+                        <a class="{{bracket.Player2Name}}" href="#">
+                            {{bracket.Player2Name}}<span class="badge">{{bracket.Player2Score}}</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="centered-panel players-panel">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <h4>{{game.matchOpponents}}</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="vertical-slide" ng-hide="!game.paused">
+                <input type="text" class="slider" value="" data-slider-min="100" data-slider-max="2000" data-slider-step="100" data-slider-value="500" data-slider-orientation="vertical" data-slider-selection="after" data-slider-tooltip="hide">
+            </div>
+
+            <div class="board-panel centered-panel">
+                <div class="board-cell" ng-repeat="cell in game.cellsArray track by $index">{{cell}}</div>
+            </div>
+
+            <div class="on-off-group">
+                Auto-pausing: <br />
+                <div class="btn-group padded-top" role="group" aria-label="...">
+                    <button type="button" class="btn btn-default {{ game.pausingEnabled ? 'active' :''}}" ng-click="game.pausingEnabled = !game.pausingEnabled">On</button>
+                    <button type="button" class="btn btn-default {{ !game.pausingEnabled ? 'active' :''}}" ng-click="game.pausingEnabled = !game.pausingEnabled">Off</button>
+                </div>
+            </div>
+
+            <div class="message-panel centered-panel alert {{game.alertClass}}"><h4 class="padded-top">{{game.message}}</h4></div>
+
+        </div>
+
 </body>
 </html>

@@ -12,6 +12,14 @@ namespace Games.TicTacToe.Tournament.Players
         {
         }
 
+        public override bool IsDefault
+        {
+            get
+            {
+                return true;
+            }
+        }
+
         public override Tuple<int, int> GetMove(Board board, Func<int> timeLeft)
         {
             // Make sure you assign Timeout delegate first

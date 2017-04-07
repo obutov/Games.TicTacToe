@@ -1,4 +1,4 @@
-﻿body {
+﻿html, body {
 }
 
 .stretched {
@@ -66,4 +66,18 @@
 }
 .padded-top {
     padding-top: 0.5em;
+}
+
+.vertical-slide{
+    position: absolute;
+    right: 5em;
+}
+
+.on-off-group{
+    position: absolute;
+    right: 5em;
+}
+
+.player-strike-out {
+    text-decoration: line-through;
 }

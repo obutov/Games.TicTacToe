@@ -46,6 +46,8 @@ namespace Games.TicTacToe.Tournament
             _boardSize = boardSize;
         }
 
+        public bool AdvanceDefaultPlayers { get; set; }
+
         /// <summary>
         /// Gets wheither the tournament is finished
         /// </summary>
@@ -213,8 +215,8 @@ namespace Games.TicTacToe.Tournament
             // get previous round brackets
             var previousRoundBrackets = Rounds.Where(r => r.RoundNumber == CurrentRound - 1).Single().Brackets;
 
-            // get winning players
-            var winningPlayers = previousRoundBrackets.SelectMany(w => w.WinningPlayers).ToList();
+            // get winning players, do not advance default players e.g. RandomPlayer
+            var winningPlayers = previousRoundBrackets.SelectMany(w => w.WinningPlayers).Where(w => (!AdvanceDefaultPlayers && !w.IsDefault) || AdvanceDefaultPlayers).ToList();
 
             if (winningPlayers.Count == 0)
                 throw new Exception("There should be at least one participant.");
@@ -223,9 +225,8 @@ namespace Games.TicTacToe.Tournament
             if (winningPlayers.Count % 2 != 0)
                 winningPlayers.Add(new RandomPlayer() { Name = $"Player{Guid.NewGuid().ToString().Substring(0, 2)}" });
 
-            // shuffle players in the list
-            var rnd = new Random();
-            winningPlayers = winningPlayers.OrderBy(item => rnd.Next()).ToList();
+            // order players by score to avoid pairing lower score players with players who have high score
+            winningPlayers = winningPlayers.OrderBy(item => item.Score).ToList();
 
             Round round = new Round(CurrentRound);
 

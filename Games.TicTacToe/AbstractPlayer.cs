@@ -16,6 +16,14 @@ namespace Games.TicTacToe
 
         public int Score { get; set; }
 
+        public virtual bool IsDefault
+        {
+            get
+            {
+                return false;
+            }
+        }
+
         public AbstractPlayer(string name)
         {
             Name = name;

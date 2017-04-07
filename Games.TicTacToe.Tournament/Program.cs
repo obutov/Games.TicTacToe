@@ -16,6 +16,10 @@ namespace Games.TicTacToe.Tournament
                 Console.WriteLine("Welcome to Tic Tac Toe Tournament! \n");
                 TournamentAdmin tournament = new TournamentAdmin("Participants.xml", boardSize);
 
+                // set this to false to exclude default players from advancing
+                // default players are added to brackets that cannot be filled with non-default players
+                tournament.AdvanceDefaultPlayers = true;
+
                 while (!tournament.IsFinished)
                 {
                     tournament.CreateNextRound();

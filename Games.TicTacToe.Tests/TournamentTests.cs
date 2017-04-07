@@ -60,6 +60,7 @@ namespace Games.TicTacToe.Tests
         {
             int boardSize = 3;
             TournamentAdmin admin = new TournamentAdmin("TestFiles\\Participants.xml", boardSize);
+            admin.AdvanceDefaultPlayers = true;
             admin.CreateNextRound();
 
             var brackets = admin.Rounds.SelectMany(r => r.Brackets);
@@ -72,7 +73,7 @@ namespace Games.TicTacToe.Tests
         {
             int boardSize = 3;
             TournamentAdmin admin = new TournamentAdmin("TestFiles\\Participants.xml", boardSize);
-
+            admin.AdvanceDefaultPlayers = true;
             admin.CreateNextRound();
             admin.PlayRound();
             admin.CreateNextRound();
