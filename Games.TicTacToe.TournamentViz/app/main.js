@@ -9,8 +9,6 @@
 
         var game = this;
 
-        $("#confetti").height(0);
-
         game.moveDelay = 500;
         game.messageDelay = game.moveDelay * 2;
         game.paused = true;
@@ -97,7 +95,6 @@
                 else
                     $("." + game.brackets[0].Player1Name).addClass("player-strike-out");
 
-                game.celebrate();
                 return;
             }
             if (!game.paused) {
